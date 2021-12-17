@@ -33,7 +33,7 @@ RUN rm -rf /pip/cache
 
 COPY . /code/
 
-EXPOSE 1883
+
 
 # run entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
