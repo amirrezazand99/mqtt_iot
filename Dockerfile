@@ -36,4 +36,4 @@ COPY . /code/
 
 
 # run entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["python","mqtt.py"]
